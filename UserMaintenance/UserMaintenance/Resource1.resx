@@ -123,6 +123,9 @@
   <data name="FullName" xml:space="preserve">
     <value>Név</value>
   </data>
+  <data name="RemoveFromList" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
   <data name="SaveFile" xml:space="preserve">
     <value>Fájlba írás</value>
   </data>

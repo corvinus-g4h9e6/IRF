@@ -28,6 +28,7 @@ namespace UserMaintenance
             listUsers.DisplayMember = "FullName";
 
             button1.Text = Resource1.SaveFile;
+            button2.Text = Resource1.RemoveFromList;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -56,6 +57,11 @@ namespace UserMaintenance
                 }
                 
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            users.Remove((User)listUsers.SelectedItem);
         }
     }
 }
