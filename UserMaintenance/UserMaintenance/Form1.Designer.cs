@@ -31,9 +31,7 @@ namespace UserMaintenance
         {
             this.listUsers = new System.Windows.Forms.ListBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
-            this.txtFirstName = new System.Windows.Forms.TextBox();
             this.lbLastName = new System.Windows.Forms.Label();
-            this.lbFirstName = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -52,13 +50,6 @@ namespace UserMaintenance
             this.txtLastName.Size = new System.Drawing.Size(142, 20);
             this.txtLastName.TabIndex = 1;
             // 
-            // txtFirstName
-            // 
-            this.txtFirstName.Location = new System.Drawing.Point(339, 41);
-            this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(142, 20);
-            this.txtFirstName.TabIndex = 2;
-            // 
             // lbLastName
             // 
             this.lbLastName.AutoSize = true;
@@ -67,15 +58,6 @@ namespace UserMaintenance
             this.lbLastName.Size = new System.Drawing.Size(35, 13);
             this.lbLastName.TabIndex = 3;
             this.lbLastName.Text = "label1";
-            // 
-            // lbFirstName
-            // 
-            this.lbFirstName.AutoSize = true;
-            this.lbFirstName.Location = new System.Drawing.Point(268, 44);
-            this.lbFirstName.Name = "lbFirstName";
-            this.lbFirstName.Size = new System.Drawing.Size(35, 13);
-            this.lbFirstName.TabIndex = 4;
-            this.lbFirstName.Text = "label2";
             // 
             // btnAdd
             // 
@@ -93,9 +75,7 @@ namespace UserMaintenance
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(490, 298);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.lbFirstName);
             this.Controls.Add(this.lbLastName);
-            this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.listUsers);
             this.Name = "Form1";
@@ -109,9 +89,7 @@ namespace UserMaintenance
 
         private System.Windows.Forms.ListBox listUsers;
         private System.Windows.Forms.TextBox txtLastName;
-        private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.Label lbLastName;
-        private System.Windows.Forms.Label lbFirstName;
         private System.Windows.Forms.Button btnAdd;
     }
 }
