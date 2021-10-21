@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMaintenance", "UserMain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4hetexcel", "4hetexcel\4hetexcel.csproj", "{0CACAB81-0B8A-44C2-8A2C-123D4E50CFEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5hetVaR", "5hetVaR\5hetVaR.csproj", "{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0CACAB81-0B8A-44C2-8A2C-123D4E50CFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CACAB81-0B8A-44C2-8A2C-123D4E50CFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CACAB81-0B8A-44C2-8A2C-123D4E50CFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
