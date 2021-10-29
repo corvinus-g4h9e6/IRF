@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4hetexcel", "4hetexcel\4het
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5hetVaR", "5hetVaR\5hetVaR.csproj", "{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week6MNB", "week6MNB\week6MNB.csproj", "{F3B2EF9B-8FBA-49D1-B35E-7A64B5EDDEFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0993A5E1-7FD7-449A-A693-D2A46CB7BAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B2EF9B-8FBA-49D1-B35E-7A64B5EDDEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B2EF9B-8FBA-49D1-B35E-7A64B5EDDEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B2EF9B-8FBA-49D1-B35E-7A64B5EDDEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B2EF9B-8FBA-49D1-B35E-7A64B5EDDEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
