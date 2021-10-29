@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Xml;
@@ -19,13 +13,21 @@ namespace week6MNB
 
 
         BindingList<Entities.RateData> Rates = new BindingList<Entities.RateData>();
+        BindingList<string> Currencies = new BindingList<string>();
         public Form1()
         {
             InitializeComponent();
+            GetCurrencies();
             RefreshData();
 
             
         }
+
+        private void GetCurrencies()
+        {
+           
+        }
+
         void RefreshData()
         {
             Rates.Clear();
@@ -35,6 +37,7 @@ namespace week6MNB
             Datagram();
 
             dataGridView1.DataSource = Rates;
+            comboBox1.DataSource = Currencies;
         }
 
         private void Datagram()

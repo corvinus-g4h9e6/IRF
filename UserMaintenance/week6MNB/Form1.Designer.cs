@@ -57,6 +57,7 @@ namespace week6MNB
             this.chartRateData.Legends.Add(legend1);
             this.chartRateData.Location = new System.Drawing.Point(451, 46);
             this.chartRateData.Name = "chartRateData";
+            this.chartRateData.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
