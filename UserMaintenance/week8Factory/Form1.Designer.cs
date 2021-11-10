@@ -36,6 +36,7 @@ namespace week8Factory
             this.btnCAR = new System.Windows.Forms.Button();
             this.btnBALL = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnColor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -59,7 +60,7 @@ namespace week8Factory
             // 
             // btnCAR
             // 
-            this.btnCAR.Location = new System.Drawing.Point(96, 50);
+            this.btnCAR.Location = new System.Drawing.Point(53, 50);
             this.btnCAR.Name = "btnCAR";
             this.btnCAR.Size = new System.Drawing.Size(75, 23);
             this.btnCAR.TabIndex = 1;
@@ -69,7 +70,7 @@ namespace week8Factory
             // 
             // btnBALL
             // 
-            this.btnBALL.Location = new System.Drawing.Point(282, 50);
+            this.btnBALL.Location = new System.Drawing.Point(334, 50);
             this.btnBALL.Name = "btnBALL";
             this.btnBALL.Size = new System.Drawing.Size(75, 23);
             this.btnBALL.TabIndex = 2;
@@ -86,11 +87,22 @@ namespace week8Factory
             this.label1.TabIndex = 3;
             this.label1.Text = "Coming next:";
             // 
+            // btnColor
+            // 
+            this.btnColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnColor.Location = new System.Drawing.Point(563, 26);
+            this.btnColor.Name = "btnColor";
+            this.btnColor.Size = new System.Drawing.Size(49, 47);
+            this.btnColor.TabIndex = 4;
+            this.btnColor.UseVisualStyleBackColor = false;
+            this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnColor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBALL);
             this.Controls.Add(this.btnCAR);
@@ -111,6 +123,7 @@ namespace week8Factory
         private System.Windows.Forms.Button btnCAR;
         private System.Windows.Forms.Button btnBALL;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnColor;
     }
 }
 
