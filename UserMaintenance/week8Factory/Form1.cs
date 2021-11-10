@@ -13,11 +13,11 @@ namespace week8Factory
     public partial class Form1 : Form
     {
 
-        List<Entities.Ball> _balls = new List<Entities.Ball>();
+        List<Abstractions.Toy> _toys = new List<Abstractions.Toy>();
 
-        private Entities.BallFactory _factory;
+        private Abstractions.IToyFactory _factory;
 
-        Entities.BallFactory Factory
+        Abstractions.IToyFactory Factory
         {
             get { return _factory; }
             set { _factory = value; }
@@ -33,31 +33,31 @@ namespace week8Factory
 
         private void createTimer_Tick(object sender, EventArgs e)
         {
-            var ball = Factory.CreateNew();
+            var toy = Factory.CreateNew();
 
-            _balls.Add(ball);
+            _toys.Add(toy);
 
-            ball.Left = -ball.Width;
+            toy.Left = -toy.Width;
 
-            mainPanel.Controls.Add(ball);
+            mainPanel.Controls.Add(toy);
 
         }
 
         private void conveyorTimer_Tick(object sender, EventArgs e)
         {
             var maxPosition = 0;
-            foreach (var ball in _balls)
+            foreach (var toy in _toys)
             {
-                ball.MoveBall();
-                if (ball.Left > maxPosition)
-                    maxPosition = ball.Left;
+                toy.MoveToy();
+                if (toy.Left > maxPosition)
+                    maxPosition = toy.Left;
             }
 
             if (maxPosition > 1000)
             {
-                var oldestBall = _balls[0];
-                mainPanel.Controls.Remove(oldestBall);
-                _balls.Remove(oldestBall);
+                var oldestToy = _toys[0];
+                mainPanel.Controls.Remove(oldestToy);
+                _toys.Remove(oldestToy);
             }
         }
     }
