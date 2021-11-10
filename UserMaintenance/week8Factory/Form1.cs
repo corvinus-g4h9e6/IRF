@@ -102,5 +102,15 @@ namespace week8Factory
                 return;
             button.BackColor = colorPicker.Color;
         }
+
+        private void btnPresent_Click(object sender, EventArgs e)
+        {
+            Factory = new PresentFactory()
+            {
+                
+                BoxColor = button3.BackColor,
+                RibbonColor = button2.BackColor
+            };
+        }
     }
 }

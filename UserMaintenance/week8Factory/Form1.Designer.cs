@@ -37,6 +37,9 @@ namespace week8Factory
             this.btnBALL = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnColor = new System.Windows.Forms.Button();
+            this.btnPresent = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -97,11 +100,44 @@ namespace week8Factory
             this.btnColor.UseVisualStyleBackColor = false;
             this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
             // 
+            // btnPresent
+            // 
+            this.btnPresent.Location = new System.Drawing.Point(186, 150);
+            this.btnPresent.Name = "btnPresent";
+            this.btnPresent.Size = new System.Drawing.Size(75, 23);
+            this.btnPresent.TabIndex = 5;
+            this.btnPresent.Text = "PRESENT";
+            this.btnPresent.UseVisualStyleBackColor = true;
+            this.btnPresent.Click += new System.EventHandler(this.btnPresent_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Aqua;
+            this.button2.Location = new System.Drawing.Point(360, 138);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(49, 47);
+            this.button2.TabIndex = 6;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.btnColor_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button3.Location = new System.Drawing.Point(430, 138);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(49, 47);
+            this.button3.TabIndex = 7;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.btnColor_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPresent);
             this.Controls.Add(this.btnColor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBALL);
@@ -124,6 +160,9 @@ namespace week8Factory
         private System.Windows.Forms.Button btnBALL;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnColor;
+        private System.Windows.Forms.Button btnPresent;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
